@@ -83,8 +83,10 @@ public class A1Adept {
 	double average = calculateAverage(amountSpent);
 	
 	// Print out results in proper format
-	System.out.println("Biggest: " + firstNames[maxIndex] + " " + lastNames[maxIndex] + " (" + amountSpent[maxIndex] + ")");
-	System.out.println("Smallest: " + firstNames[minIndex] + " " + lastNames[minIndex] + " (" + amountSpent[minIndex] + ")");
+	System.out.println("Biggest: " + firstNames[maxIndex] + " " + lastNames[maxIndex] + " (" +
+						String.format("%.2f", amountSpent[maxIndex] -.005) + ")");
+	System.out.println("Smallest: " + firstNames[minIndex] + " " + lastNames[minIndex] + " (" + 
+						String.format("%.2f", amountSpent[minIndex] -.005) + ")");
 	System.out.println("Average: " + String.format("%.2f", average -.005));
 		
 
