@@ -48,7 +48,8 @@ public class A1Novice {
 			}
 			
 			// Print out the information in the proper format
-			System.out.println(firstNames[i].charAt(0) + ". " + lastNames[i] + ": " + totalCost[i]);
+			System.out.println(firstNames[i].charAt(0) + ". " + lastNames[i] + ": " +
+								String.format("%.2f", totalCost[i]));
 		}		
 	}
 }

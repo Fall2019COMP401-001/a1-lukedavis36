@@ -84,10 +84,10 @@ public class A1Adept {
 	
 	// Print out results in proper format
 	System.out.println("Biggest: " + firstNames[maxIndex] + " " + lastNames[maxIndex] + " (" +
-						String.format("%.2f", amountSpent[maxIndex] -.005) + ")");
+						String.format("%.2f", amountSpent[maxIndex]) + ")");
 	System.out.println("Smallest: " + firstNames[minIndex] + " " + lastNames[minIndex] + " (" + 
-						String.format("%.2f", amountSpent[minIndex] -.005) + ")");
-	System.out.println("Average: " + String.format("%.2f", average -.005));
+						String.format("%.2f", amountSpent[minIndex]) + ")");
+	System.out.println("Average: " + String.format("%.2f", average));
 		
 
 }
